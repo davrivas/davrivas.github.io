@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#second {
+    width: 100%;
+}
+
+#photo {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
