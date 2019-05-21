@@ -1,2 +1,2 @@
-# davrivas.github.io
-My developer webpage
+# David Rivas developer webpage
+Official webpage of colombian developer David Rivas
