@@ -1,19 +1,24 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@font-face {
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+    font-family: 'Open Sans';
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #2b2828;
+    color: #d3d3d3;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+    color: #d3d3d3;
+    transition: .3s;
 }
 
 a:hover {
-    color: #000;
-    text-decoration: none;
+    color: #1c8a76;
+    text-decoration: underline;
 }
 
-ul.lists {
-    list-style: none;
+#photo {
+    border-radius: 10px;
 }
