@@ -12,11 +12,13 @@ body {
 a {
     color: #d3d3d3;
     transition: .3s;
+    border-bottom: 1px dotted;
 }
 
 a:hover {
     color: #1c8a76;
-    text-decoration: underline;
+    border-bottom: 1px solid;
+    text-decoration: none;
 }
 
 #photo {
