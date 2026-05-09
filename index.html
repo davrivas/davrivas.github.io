@@ -1,130 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>David Rivas (davrivas) developer site</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/fontawesome-free-5.8.2-web/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-    <div class="container">
-        <div class="row p-2">
-            <div class="col-md-4 pt-1 d-flex justify-content-center align-items-start">
-                <img src="images/photo.jpeg" class="img-fluid" alt="David Rivas photo" id="photo">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Official webpage of colombian developer David Rivas" />
+        <meta name="author" content="David Rivas" />
+        <title>David Rivas (davrivas) developer site</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">davrivas</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-md-8 pt-3">
-                <h1 class="text-center mb-3"><span class="fa fa-laptop-code"></span> David Rivas (davrivas)</h1>
-
-                <p>Official webpage of colombian developer David Rivas</p>
-
-                <h2>Technologies worked</h2>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>.NET</h3>
-
-                        <ul>
-                            <li>C#</li>
-                            <li>Visual Basic .NET</li>
-                            <li>ASP.NET Windows Forms</li>
-                            <li>ASP.NET MVC</li>
-                            <li>Xamarin.Forms</li>
-                            <li>Entity Framework</li>
-                            <li>.NET Core</li>
-                            <li>Entity Framework</li>
-                            <li>Identity Server</li>
-                            <li>NUnit</li>
-                        </ul>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-dark text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/photo.jpeg" alt="davrivas photo" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">David Rivas</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Colombian Software Developer</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Liquid -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#liquid">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-thermometer-half fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/liquid.png" alt="Liquid Temperature" />
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3>Web development</h3>
-
-                        <ul>
-                            <li>PHP</li>
-                            <li>Javascript</li>
-                            <li>Typescript</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JSON</li>
-                            <li>Bootstrap</li>
-                            <li>jQuery</li>
-                            <li>AngularJs</li>
-                            <li>Angular +2</li>
-                            <li>Toastr</li>
-                            <li>Sweet Alert</li>
-                            <li>React</li>
-                        </ul>
+                    <!-- Simu -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#simu">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-motorcycle fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/simu.png" alt="SIMU" />
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3>Database design and programming</h3>
-
-                        <ul>
-                            <li>My SQL</li>
-                            <li>SQL Server</li>
-                            <li>DB2</li>
-                        </ul>
+                    <!-- Loanium -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#loanium">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-hand-holding-usd fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/loanium.png" alt="Loanium Desktop" />
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3>Others</h3>
-
-                        <ul>
-                            <li>Java 8</li>
-                            <li>JavaServer Faces (JSF)</li>
-                            <li>JUnit</li>
-                            <li>Microsoft Azure
-                                <ul>
-                                    <li>Azure App Service</li>
-                                    <li>Azure Service Bus</li>
-                                    <li>Azure AD B2C</li>
-                                    <li>Azure Blob Storage</li>
-                                    <li>Azure Application Insights</li>
-                                    <li>Azure Functions</li>
-                                    <li>Azure SQL Database</li>
-                                    <li>Azure Cosmos DB</li>
-                                </ul>
-                            </li>
-                            <li>Elasticsearch</li>
-                            <li>RabbitMQ</li>                            
-                            <li>Masstransit</li>
-                            <li>Python</li>
-                            <li>Micropython</li>
-                        </ul>
+                    <!-- Biblioteca -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#bilbioteca">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-book fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/biblioteca.jpg" alt="Biblioteca interactiva" />
+                        </div>
                     </div>
                 </div>
-
-                <h2>Projects made</h2>
-
-                <ul>
-                    <li><a href="https://github.com/davrivas/liquid_temperature" target="_blank">Liquid Temperature (Micropython)</a></li>
-                    <li><a href="https://github.com/davrivas/simu" target="_blank">SIMU (JavaServer Faces)</a></li>                    
-                    <li><a href="https://github.com/davrivas/Edu.SenaCsf.LoaniumDesktop" target="_blank">Loanium Desktop (Windows Forms)</a></li>
-                    <li><a href="https://github.com/davrivas/Biblioteca-Interactiva" target="_blank">Biblioteca interactiva (PHP)</a></li>
-                </ul>
-
-                <h2>Networks</h2>
-
-                <ul>
-                    <li>
-                        <i aria-hidden="true" class="fa fa-envelope"></i> <a href="mailto:davrivas1995@gmail.com" title="Send me an email!">davrivas1995@gmail.com</a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/davrivas" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/davrivas" target="_blank">GitHub</a></li>
-					<li><a href="https://codepen.io/davrivas" target="_blank">Codepen</a></li>
-                </ul>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-6 ms-auto">
+                        <h3>Technologies Worked</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>.NET</h4>
+                                <ul>
+                                    <li>C#</li>
+                                    <li>Visual Basic .NET</li>
+                                    <li>ASP.NET Windows Forms</li>
+                                    <li>ASP.NET MVC</li>
+                                    <li>Xamarin.Forms</li>
+                                    <li>Entity Framework</li>
+                                    <li>.NET Core</li>
+                                    <li>Identity Server</li>
+                                    <li>NUnit</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Web Development</h4>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>Javascript</li>
+                                    <li>Typescript</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JSON</li>
+                                    <li>Bootstrap</li>
+                                    <li>jQuery</li>
+                                    <li>AngularJs</li>
+                                    <li>Angular +2</li>
+                                    <li>Toastr</li>
+                                    <li>Sweet Alert</li>
+                                    <li>React</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 me-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Database Design and Programming</h4>
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>SQL Server</li>
+                                    <li>DB2</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Others</h4>
+                                <ul>
+                                    <li>Java 8</li>
+                                    <li>JavaServer Faces (JSF)</li>
+                                    <li>JUnit</li>
+                                    <li>Microsoft Azure</li>
+                                    <li>Elasticsearch</li>
+                                    <li>RabbitMQ</li>
+                                    <li>Masstransit</li>
+                                    <li>Python</li>
+                                    <li>Micropython</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer id="contact" class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            <i class="fas fa-map-marker-alt"></i> Bogota, Colombia
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/davrivas" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/davrivas" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://codepen.io/davrivas" target="_blank"><i class="fab fa-fw fa-codepen"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:davrivas1995@gmail.com"><i class="fas fa-fw fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; David Rivas 2026</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="liquid" tabindex="-1" aria-labelledby="liquid" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Liquid Temperature</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/liquid.png" alt="Liquid Temperature" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A project built with Micropython. <a href="https://github.com/davrivas/liquid_temperature" target="_blank">View on GitHub</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
-
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="simu" tabindex="-1" aria-labelledby="simu" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SIMU</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/simu.png" alt="SIMU" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A project built with JavaServer Faces (JSF). <a href="https://github.com/davrivas/simu" target="_blank">View on GitHub</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="loanium" tabindex="-1" aria-labelledby="loanium" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Loanium Desktop</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/loanium.png" alt="Loanium Desktop" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A desktop application built with Windows Forms. <a href="https://github.com/davrivas/Edu.SenaCsf.LoaniumDesktop" target="_blank">View on GitHub</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="bilbioteca" tabindex="-1" aria-labelledby="bilbioteca" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Biblioteca Interactiva</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/biblioteca.jpg" alt="Biblioteca Interactiva" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">An interactive library built with PHP. <a href="https://github.com/davrivas/Biblioteca-Interactiva" target="_blank">View on GitHub</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
