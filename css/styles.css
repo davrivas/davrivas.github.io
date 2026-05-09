@@ -11000,13 +11000,23 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
+  height: 18rem;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background-color: #fff;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
